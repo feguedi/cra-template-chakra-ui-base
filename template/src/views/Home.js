@@ -1,11 +1,12 @@
 import React from 'react'
-import { Heading, Text, Flex, Stack } from '@chakra-ui/core'
+import { Heading, Text, Stack } from '@chakra-ui/core'
+import UserLayout from '../layout/User'
 
 export default () => (
-    <Flex alignItems="center" justifyContent="center" style={{ minHeight: "100vh" }}>
+    <UserLayout>
         <Stack align="center">
             <Heading as="h2">Welcome</Heading>
             <Text>Using Chakra-UI for web application</Text>
         </Stack>
-    </Flex>
+    </UserLayout>
 )

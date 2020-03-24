@@ -1,13 +1,13 @@
 {
   "name": "cra-template-chakra-ui-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "keywords": [
     "react",
     "create-react-app",
-    "template",
+    "cra-template",
     "chakra-ui",
-    "airbnb",
+    "emotionjs",
     "react-router"
   ],
   "description": "Base template for Create React App with Chakra-UI.",
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "https://github.com/feguedi/cra-template-chakra-ui-base.git"
   },
-  "license": "GNU/GPLv3",
+  "license": "GPL-3.0",
   "engines": {
     "node": ">=10"
   },

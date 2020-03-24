@@ -1,8 +1,9 @@
 import React from 'react'
 import { Heading, Text, Flex, Divider } from '@chakra-ui/core'
+import UserLayout from '../layout/User'
 
 export default () => (
-    <Flex direction="column">
+    <UserLayout>
         <Flex alignItems="center" justifyContent="center" style={{ minHeight: "100vh" }}>
             <Heading as="h4">Error</Heading>
             <Divider 
@@ -14,5 +15,5 @@ export default () => (
             />
             <Text>Page not found</Text>
         </Flex>
-    </Flex>
+    </UserLayout>
 )
