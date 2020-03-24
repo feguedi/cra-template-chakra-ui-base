@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Router, Switch, Route, Redirect } from 'react-router-dom'
-import { createHashHistory } from 'history'
+import { createBrowserHistory } from 'history'
 import HomeComponent from './views/Home'
 import ErrorComponent from './views/Error'
 
 export default () => {
-    const [browserHistory] = useState(createHashHistory())
+    const [browserHistory] = useState(createBrowserHistory())
 
     return (
         <Router history={browserHistory}>

@@ -320,14 +320,9 @@ const customFonts = {
     heading: 'Montserrat',
 }
 
-const customFontsWeight = {
-    body: 400,
-    heading: 200,
-}
-
 const headingStyle = {
-    fontFamily: 'heading',
-    fontWeight: 'heading',
+    fontFamily: 'Montserrat',
+    fontWeight: 700,
 }
 
 const customStyles = {
@@ -377,6 +372,7 @@ export default {
     fonts: {
         ...theme.fonts,
         ...customFonts,
+        ...customStyles,
     },
     breakpoints,
 }
