@@ -24,8 +24,11 @@ The public folder contains the fonts to use with [FontAwesome](https://fontaweso
 
 ### npx
 
-> npx create-react-app awesome-web-app --template chakra-ui-base
+```sh
+npx create-react-app awesome-web-app --template chakra-ui-base
+```
 
 ### yarn
-
-> yarn create react-app awesome-web-app --template chakra-ui-base
+```sh
+yarn create react-app awesome-web-app --template chakra-ui-base
+```
