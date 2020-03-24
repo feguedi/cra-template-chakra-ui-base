@@ -1,0 +1,31 @@
+{
+  "name": "cra-template-chakra-ui-base",
+  "version": "0.0.1",
+  "private": false,
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "chakra-ui",
+    "airbnb",
+    "react-router"
+  ],
+  "description": "Base template for Create React App with Chakra-UI.",
+  "main": "template.json",
+  "author": "feguedi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feguedi/cra-template-chakra-ui-base.git"
+  },
+  "license": "GNU/GPLv3",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/feguedi/cra-template-chakra-ui-base/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
